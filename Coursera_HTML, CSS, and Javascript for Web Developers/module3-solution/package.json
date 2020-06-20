@@ -1,0 +1,34 @@
+{
+  "name": "confusion",
+  "version": "1.0.0",
+  "description": "This is a website for Ristorante Con Fusion",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "author": "Aritra Roy",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aritraroy24/Coursera.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aritraroy24/Coursera/issues"
+  },
+  "homepage": "https://github.com/aritraroy24/Coursera#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "npm": "^6.14.5",
+    "popper": "^1.0.1",
+    "popper.js": "^1.14.3",
+    "tether": "^1.4.7"
+  }
+}

@@ -1,141 +1,307 @@
-/* Base Styles */
-
-* {
-	box-sizing: border-box;
+body    {
+	overflow-y:scroll;
+	overflow-x: hidden;
 }
 
-h1 {
-	font-family: Brushstroke, fantasy;
-	color: #000000;
-}
-
-body {
-	background-image: url("background.jpg");
-	background-color: #FEF5CA;
-
-}
-
-p {
-	padding: 10px;
-	margin: 0;
-}
-
-.container {
-	border: none;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 10px;
-}
-
-section {
-	border:	1px solid black;
-	background-color: #00FF99;
-	width: 100%;
-	height: auto;
-	font-family: Helvetica;
-	color: black;
-	position: relative;
-	overflow: auto;
-}
-
-#chicken {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 5px;
-	background-color: #FFFF00;
-}
-
-#beef {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 5px;
-	background-color: #FF1439;
-}
-
-#sushi {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	background-color: #6495ED;
-	color: white;
-	padding: 5px;
-}
-
-#chicken-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-#beef-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-#sushi-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.navbar-brand {
-  font-size: 2em;
-  border: 0 0 10px 10px;
-  color: #FFFFFF;
-}
-
+/** HEADER **/
 #header-nav {
+  background-color: gray;
+  border-radius: 0;
   border: 0;
-  background-color: #FC5F06;
-  color: #FFFFFF;
 }
+.navbar-brand {
+  padding-top:40x;
+}
+.navbar-brand h1 { /* Food LLC name */
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 15px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  }
+ #nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  background-color:gray;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
-
-.nav-header {
-  background-color: #FFFFFF;
+#main-content {
+	text-align:center;
+}
+#chicken-item {
+	text-align:center;
+	
 }
 
-.nav-brand {
-  color: #FFFFFF;
-  font-size: 1.5em;
+#home-tiles > p {
+	text-align:center;
+	margin-left: 40px;
 }
 
-#nav-list {
-  color: white;
+p#it1 {
+ 
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+  margin: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-hr {
-  border-color: white;
+p#div1 {
+  text-align: center;
+  font-weight : bold;
+  margin-left:0%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#item1 {
+	margin-left : 25%;
+	width: 50%;
+	padding: 0 50x 0 50x;
+	background-color: gray;
+	border: 1px solid white;
+	overflow:auto;
 }
 
-.item {
-  color: white;
-  font-size: 1.2em;
+
+/*Page Content*/
+.col-lg-3 .col-md-6 {
+ background-color: gray;
 }
+p#d1, p#d2, p#d3 {
+  background-color: gray;
+  width: 100%;
+  height: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+  margin: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p#c1, p#c2, p#c3 {
+  text-align: center;
+  margin-left:10%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  border: 1px solid gray;
+  font-size: large;
+  font:weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#l1, #l2, #l3 {
+background-color: gray;
+border: 1px solid black;
+width: 20%;
+height:90%;
+overflow: auto;
+margin: 10px;
+align: center;
+}
+.row { 
+margin-left:20%;
+}
+
+/*
+#ChickenMenu {
+  background: url('../images/ChickenMenu.jpg') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 0 0 0 0;
+}
+#BeefMenu {
+  background: url('../images/BeefMenu.jpg') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 0 0 0 0;;
+}
+#SushiMenu {
+  background: url('../images/SushiMenu.jpg') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 0 0 0 0;;
+}
+*/
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+	 border: 1px solid black;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  #nav-list a {
+  color: black;
+  text-align: center;
+  background-color:white;
+  padding: 0 0 0 0;
+ /* margin-top:-5px;*/
+}
+  /* End Header */
+
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6{
+    float: left;
+    border: 2px black;
+  }
+  .col-lg-1 {
+    width: 16.66%;
+  }
+  .col-lg-2 {
+    width: 33.33%;
+  }
+  .col-lg-3 {
+    width: 50%;
+  }
+  .col-lg-4 {
+    width: 66.66%;
+  }
+  .col-lg-5 {
+    width: 83.32%;
+  }
+  .col-lg-6 {
+    width: 100%;
+  }
+  
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6{
+    float: left;
+    border: 2px solid black;;
+  }
+  .col-md-1 {
+    width: 16.66%;
+  }
+  .col-md-2 {
+    width: 33.33%;
+  }
+  .col-md-3 {
+    width: 50%;
+  }
+  .col-md-4 {
+    width: 66.66%;
+  }
+  .col-md-5 {
+    width: 83.32%;
+  }
+  .col-md-6 {
+    width: 100%;
+  }
+  
+}
+
+/********** Small devices only **********/
+@media (max-width: 600px) {
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6{
+    float: left;
+    border: 2px solid black;;
+  }
+  .col-md-1 {
+    width: 16.66%;
+  }
+  .col-md-2 {
+    width: 33.33%;
+  }
+  .col-md-3 {
+    width: 50%;
+  }
+  .col-md-4 {
+    width: 66.66%;
+  }
+  .col-md-5 {
+    width: 83.32%;
+  }
+  .col-md-6 {
+    width: 100%;
+  }}
