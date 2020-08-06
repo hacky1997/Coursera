@@ -19,3 +19,6 @@ Developed using Bootstrap, a webpage application that serving the website for a 
 ## Run
 
 Run `npm start` for a dev server. Navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files.
+
+## Project
+UI prototype and implementation using Bootstrap 4
