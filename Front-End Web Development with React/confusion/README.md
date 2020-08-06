@@ -1,8 +1,9 @@
+[![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)&nbsp;&nbsp;&nbsp;[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)\
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Front-End Javascript Frameworks: React
 
-This project is from the React course opened on [Coursera](https://www.coursera.org/learn/front-end-react) .  
+This project is from the React course opened on [Coursera](https://www.coursera.org/learn/front-end-react)  
 
 ## Description
 
