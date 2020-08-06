@@ -7,7 +7,7 @@ This project is from the Web Development course opened on [Coursera](https://www
 
 ## Description
 
-A responsive website has been developed using HTML, CSS and JavaScript that is serving the website for a restaurant.
+A responsive website has been developed using HTML, CSS and JavaScript that is serving the website for a restaurant. The course has been taught by `Yaakov Chaikin, Johns Hopkins University`.
 
 ## Skills Learned
 
