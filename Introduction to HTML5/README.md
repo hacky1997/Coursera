@@ -1,4 +1,4 @@
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)]&nbsp;&nbsp;&nbsp;[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)\
+![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)&nbsp;&nbsp;&nbsp;[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)\
 This project was made with HTML5, CSS3 and JavaScript
 
 # Front-End Development using HTML, CSS and JavaScript
