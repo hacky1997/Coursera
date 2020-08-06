@@ -1,5 +1,5 @@
 ![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)&nbsp;&nbsp;&nbsp;[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)\
-This is a introduction course on HTML5.
+This is an introduction course on HTML5.
 
 # Front-End Development structure using HTML5
 
