@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Front-End Javascript Frameworks: React
 
-This project is from the React course opened on [Coursera](https://www.coursera.org/learn/front-end-react) .  
+This project is from the React course opened on [Coursera](https://www.coursera.org/learn/front-end-react)  
 
 ## Description
 
