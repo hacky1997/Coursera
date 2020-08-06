@@ -1,5 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br/ >
 [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
+<br/ >This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Front-End Javascript Frameworks: React
 
