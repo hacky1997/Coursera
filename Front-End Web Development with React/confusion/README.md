@@ -1,4 +1,4 @@
-[![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)\
+[![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)   [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)\
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Front-End Javascript Frameworks: React
