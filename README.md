@@ -3,3 +3,5 @@
 ---
 # Coursera
 Coursera Course Assignments for different courses.
+---
+📝 Notes
