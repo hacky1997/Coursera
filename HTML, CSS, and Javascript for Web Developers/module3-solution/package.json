@@ -11,7 +11,7 @@
   "author": "Aritra Roy",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "2.5.4"
   },
   "repository": {
     "type": "git",
