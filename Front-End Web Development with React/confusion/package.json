@@ -16,6 +16,8 @@
     "react-redux-form": "1.16.8",
     "react-router-dom": "5.2.0",
     "react-scripts": "3.4.4",
+    "react-transition-group": "4.4.1",
+    "reactstrap": "5.0.0",
     "react-transition-group": "2.9.0",
     "reactstrap": "8.6.0",
     "redux": "3.7.2",
