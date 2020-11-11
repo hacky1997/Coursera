@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/aritraroy24/Coursera#readme",
   "devDependencies": {
-    "lite-server": "2.5.4"
+    "lite-server": "2.6.1"
   },
   "dependencies": {
     "install": "^0.13.0"
